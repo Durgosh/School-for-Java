@@ -1,3 +1,11 @@
 pom.xml - what maven does
 
 edit
+\
+
+///////////////////////////////// SECOND
+
+@autowire
+@componentScan
+@Repository
+@Service
