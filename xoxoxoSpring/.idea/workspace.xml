@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9908c1e-35a4-42bd-8980-dbd77315ff1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../autowire/src/main/java/model/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../autowire/src/main/java/repository/BankAccountRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../autowire/src/main/java/service/BankAccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../autowire/src/main/java/service/TransactionService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../autowire/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../autowire/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../autowire/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../autowire/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../autowire/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../autowire/src/main/java/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
