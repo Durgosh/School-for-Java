@@ -3,7 +3,7 @@ pom.xml - what maven does
 edit
 \
 
-///////////////////////////////// SECOND
+///////////////////////////////// 11 April
 
 @autowire
 @componentScan
@@ -11,3 +11,42 @@ edit
 @Service
 
 https://github.com/lauradumitrel97/schoolofjava2019
+
+////////////////////////////////// 15 April
+
+SPRING BOOT
+
+Rest Services - methods : (get, post -iban/name/amount-, put, delete, patch -name-)
+@Controller -> Response Entity
+@Request Mapping (path = " ", method (get/post/plit/delete)
+
+in browser : http://localhost:8080/myresource
+
+Status:
+2XX - works
+4XX - client error (ex 404 )
+5XX - server error
+
+in browser : http://localhost:8080/myresource/variable
+
+
+-> Postman <-
+
+Request Method.Post
+@RequestMapping
+@GetMapping
+@PostMapping
+Json
+@RequestBody { "iban":"xx", ... } 
+
+// make a service / repository and controller for Card
+// methods - POST / GET - addCard, getCards
+
+~ Json ~ in  Body
+{
+"ibam":"1234",
+"ownerName":"Bob",
+"balance":20
+}
+
+Card - lista de tranzactii
