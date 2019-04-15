@@ -1,0 +1,19 @@
+git init
+git add hello.txt
+git commit -m "first commit" (comit local)
+git remote add origin https://github.com/lauradumitrel97/schoolofjava2019.git
+git push -u origin master (urca pe server)
+
+maven: management biblioteci (dependinte)
+	descarca toate dependintele necesare
+	-este un tool de build
+	-ruleaza teste unitare
+artefact = aplicatia in sine = executabilul care rezulta
+
+Spring framework:
+	un enterprise framework 
+
+bean = instanta din interiorul contextului
+
+
+!!!punere in context -> @Bean
