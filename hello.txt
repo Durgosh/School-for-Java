@@ -50,3 +50,66 @@ Json
 }
 
 Card - lista de tranzactii
+
+
+////////////////////////////////////////////// 18 Aprilie
+
+DATABASE - colectie de tabele (schema)   - Oracle 
+
+primary key
+foreign key
+
+****
+
+create table dept (
+id number(2),
+name varchar2(40),
+constraint pk_dept primary key(id);
+
+describe dept;
+select * from dept; 
+
+create table emp (
+id number(2),
+name varchar2(40),
+age number(3),
+dept_id number(2).
+constraint pk_emp primary key(id),
+constraint fk_emp foreign key(dept_id) references dept(id));
+
+describe emp;
+select * from emp;
+
+insert into  dept values(1, 'NETS');
+insert into  dept(id, name) values(2, 'ACCOUNTING');
+insert into emp values(1,'Gigel', 30, 1);
+insert into emp values(2,'Aurel', 30, 1);
+insert into emp values(3, 'Costel', 30, 1);
+insert into emp values(4, 'Costel', 30, 1);
+
+update emp set age= 35; // will change all items
+update emp set age= 36 where name = 'Costel'; //not recommended
+update emp set age= 37 where id = 3;
+
+truncate table dept; // can't do because of child
+truncate table emp; // deletes all entries
+
+select count(*) from emp;
+select min(age) from emp;
+
+select age from emp where name like '%el%';
+
+select * from dept
+left join emp
+on dept.id= emp.dept_id;
+
+select count(*) nr_emp, name from emp
+where age >30
+group by name;
+
+****
+
+
+
+
+
