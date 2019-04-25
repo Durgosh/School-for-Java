@@ -110,6 +110,15 @@ group by name;
 ****
 
 
+///////////////////////////////////////// 25 April
+
+JAVA PERSISTANCE API
+
+- CRUDREPOSITORY
+' JPA REPOSITORY -
+
+JPQL - JAVA PERSISTANCE QUERY LANGUAGE
+
 
 
 
